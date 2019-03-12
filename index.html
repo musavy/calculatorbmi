@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./Css/style.css"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <h1 class="animated flip">Calculate your BMI</h1>
+      <div class="user-input">
+        <form action="">
+          <input type="text" id="kg" placeholder="Mass in Kilogram" />
+          <input type="text" id="cm" placeholder="Height in meter" />
+          <button>
+            Calculate
+          </button>
+        </form>
+      </div>
+      <div class="container">
+        <div class="box-list">
+          <ul>
+            <li class="li1">Underweight:BMI is less than 18.5</li>
+            <li class="li2">Normal weight:BMI is 18.5 to 24.9</li>
+            <li class="li3">Overweight:BMI is 25 to 29.9</li>
+            <li class="li4">Obese:BMI is 30 or more</li>
+          </ul>
+        </div>
+        <div class="pics">
+          <img
+            class="bmi-image"
+            src="./assets/images/default.jpg"
+            alt="bmipic"
+          />
+        </div>
+      </div>
+      <div class="result"></div>
+    </main>
+    <script src="JS/BMI.js"></script>
+  </body>
+</html>
